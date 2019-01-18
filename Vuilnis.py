@@ -102,7 +102,7 @@ while True:
         lcd.lcd_display_string("Kalibratie 2 vol", 2)
         time.sleep(2)
         K2 = afstand
-        if (K2 - K1) < 5 and (K2 - K1) > -5:
+        if (K2 - K1) < 3 and (K2 - K1) > -3:
             diepte1 = K1
             diepte2 = K2
             break
